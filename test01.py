@@ -5,6 +5,6 @@ b=tf.placeholder("float")
 y=tf.mul(a,b)
 sess = tf.Session()
 
-print sess.run(y, feed_dict={a:4, b:4})
+print sess.run(y, feed_dict={a:5, b:4})
 
 
